@@ -58,5 +58,38 @@ p {
 }
 
 form > #ilogim:hover, #isenha:hover {
-    box-shadow: 0px 0px 3px white;
+    box-shadow: 0px 0px 1px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+form > input[type=submit], [type=reset] {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+}
+
+form > input[type=submit]:hover, [type=reset]:hover {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    height: 40px;
+    background-color: rgb(213, 213, 213);
+    color: brown;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: aliceblue;
+    font-size: 0.6em;
+    border: 2px;
+    width: 100%;
+}
+
+a:hover {
+    color: brown;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgb(213, 213, 213);
 }
